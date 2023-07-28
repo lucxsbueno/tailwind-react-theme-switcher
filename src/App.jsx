@@ -19,12 +19,8 @@ function App() {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         </p>
 
-        <p className="text-md text-gray-700 dark:text-slate-300 mb-2">
-          Et sunt earum praesentium deserunt tempore, dolor nostrum tempora consectetur. Aliquid, saepe. Odio doloribus ad repellendus laudantium accusamus. Fuga porro iure.
-        </p>
-
         <p className="text-md text-gray-700 dark:text-slate-300 mb-5">
-          Pariatur, accusamus labore laborum excepturi quae amet aperiam sunt error tempora possimus ipsam obcaecati doloremque consectetur corrupti nihil!
+          Et sunt earum praesentium deserunt tempore, dolor nostrum tempora consectetur. Aliquid, saepe. Odio doloribus ad repellendus laudantium accusamus. Fuga porro iure.
         </p>
 
         <ThemeSwitcher />
