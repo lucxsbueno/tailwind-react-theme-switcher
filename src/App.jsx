@@ -5,7 +5,7 @@ function App() {
   const { theme, prefersDarkScheme } = useTheme();
 
   return (
-    <div className="bg-white dark:bg-gray-900 w-full h-screen flex flex-col items-center justify-center">
+    <div className="bg-white dark:bg-gray-900 w-full h-screen flex flex-col items-center justify-center p-10">
       <div className="max-w-3xl">
         <h1 className="text-3xl mb-5">
           {theme === "light" ? "🌞" : (theme === "dark" || prefersDarkScheme) ? "🌙" : "🌞"}
