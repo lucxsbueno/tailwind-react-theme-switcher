@@ -8,7 +8,7 @@ function App() {
     <div className="bg-white dark:bg-gray-900 w-full h-screen flex flex-col items-center justify-center">
       <div className="max-w-3xl">
         <h1 className="text-3xl mb-5">
-          {theme === "light" ? "🌞" : (theme === "dark" || prefersDarkScheme) && "🌙"}
+          {theme === "light" ? "🌞" : (theme === "dark" || prefersDarkScheme) ? "🌙" : "🌞"}
         </h1>
 
         <h1 className="text-3xl font-medium mb-3 text-gray-900 dark:text-white">Theme switcher</h1>
